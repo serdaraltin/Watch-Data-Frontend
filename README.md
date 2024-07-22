@@ -1,30 +1,49 @@
-## Proje Kurulumu
+# Watch-Data-Frontend 📈
 
-Aşağıdaki adımları takip ederek projeyi kurabilir ve başlatabilirsiniz:
+Welcome to the **Watch-Data-Frontend** project! This repository contains the frontend code for the Watch Data application, built with modern web technologies.
 
-1. **Kurulumu Yapmak**
-   Proje root klasörüne gelip terminalde aşağıdaki komutu yazınız.
+## 🚀 Features
 
-   ```
-   yarn
-   ```
+- **TypeScript** for type-safe JavaScript
+- **SCSS** for enhanced CSS
+- Responsive design for various devices
+- Seamless integration with backend services
 
-   Bu komut, projenin bağımlılıklarını yükler.
+## 🛠️ Setup and Installation
 
-2. **Konfigürasyonu Ayarlamak**
+Follow these steps to get the project up and running:
 
-   `src/config` klasörü içindeki `WS_URL` ve `BACKEND_URL` güncel URL'ler ile değiştirilmelidir.
+1. **Clone the repository:**
 
-3. **Proje İnşası**
+    ```bash
+    git clone https://github.com/serdaraltin/Watch-Data-Frontend.git
+    cd Watch-Data-Frontend
+    ```
 
-   ```
-   yarn build
-   ```
+2. **Install dependencies:**
 
-   Bu komut, projeyi inşa eder.
+    ```bash
+    yarn
+    ```
 
-4. **Projeyi Başlatmak**
-   ```
-   yarn start
-   ```
-   Bu komut, projeyi başlatır.
+3. **Configure the project:**
+
+    Update `WS_URL` and `BACKEND_URL` in `src/config` with the appropriate URLs.
+
+4. **Build the project:**
+
+    ```bash
+    yarn build
+    ```
+
+5. **Start the development server:**
+
+    ```bash
+    yarn start
+    ```
+
+## 📁 Project Structure
+
+- **/build**: Compiled output
+- **/public**: Static files
+- **/src**: Source code
